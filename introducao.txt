@@ -15,3 +15,8 @@ Media query:
 -> Media query é o recurso que utilizamos para criar os breakpoints;
 -> Os breakpointsadptam o nosso projeto para diferentes tipos de tela;
 -> Configuramos uma largura, e depois as regras começam a serem alternadas dependendo do tamanho da tela;
+
+Media query com min-width:
+-> Se utilizarmos min-width em vez de max-width, a media query funciona ao contrário;
+-> Então podemos desenvolver projetos com uma técnica chamada mobile first;
+-> Os projetos que tem mais usuários mobile geralmente são feitos em mobile first;
