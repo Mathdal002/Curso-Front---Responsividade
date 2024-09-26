@@ -1,0 +1,17 @@
+O que é responsividade?
+-> Responsividade é a técnica de adaptar uma página web para vários dispositivos diferentes;
+-> Ou seja, temos mudanças de CSS baseada na resolução;
+-> Detectamos o que o usuário está utilizando, e adptamos o nosso site a resolução;
+-> As regras de CSS são as mesmas, porém dentro de um recurso chamado media query;
+
+Configurando a responsividade:
+-> Primeiro vamos adicionar uma meta tag ao nosso head;
+-> Ela é 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-> Isso faz com que o conteúdo se adapte com os dispositivos;
+-> Adicionamos também uma escala de 1:1;
+
+Media query:
+-> Media query é o recurso que utilizamos para criar os breakpoints;
+-> Os breakpointsadptam o nosso projeto para diferentes tipos de tela;
+-> Configuramos uma largura, e depois as regras começam a serem alternadas dependendo do tamanho da tela;
